@@ -40,7 +40,7 @@
             android:layout_marginTop="341dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="313dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="43dp" app:layout_constraintEnd_toStartOf="@+id/button"
-            android:layout_marginEnd="17dp"/>
+            android:layout_marginEnd="17dp" android:background="#47885e"/>
     <Button
             android:text="-10"
             android:layout_width="100dp"
@@ -49,5 +49,5 @@
             app:layout_constraintTop_toBottomOf="@+id/button3" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="173dp" app:layout_constraintEnd_toStartOf="@+id/button2"
             android:layout_marginEnd="10dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="52dp"/>
+            android:layout_marginStart="52dp" android:background="#47885e"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
