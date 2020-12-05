@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             count++
             textView.text=count.toString()
+            when{
+
+            }
         }
 
         button2.setOnClickListener {
@@ -37,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             count-=10
             textView.text=count.toString()
         }
+
 
 
     }
