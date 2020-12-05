@@ -32,4 +32,22 @@
             android:layout_marginTop="62dp" app:layout_constraintTop_toBottomOf="@+id/button"
             android:layout_marginBottom="232dp" app:layout_constraintBottom_toBottomOf="parent"
             android:background="#47885e"/>
+    <Button
+            android:text="-1"
+            android:layout_width="102dp"
+            android:layout_height="77dp"
+            android:id="@+id/button3" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="341dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="313dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="43dp" app:layout_constraintEnd_toStartOf="@+id/button"
+            android:layout_marginEnd="17dp"/>
+    <Button
+            android:text="-10"
+            android:layout_width="100dp"
+            android:layout_height="79dp"
+            android:id="@+id/button4" android:layout_marginTop="61dp"
+            app:layout_constraintTop_toBottomOf="@+id/button3" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="173dp" app:layout_constraintEnd_toStartOf="@+id/button2"
+            android:layout_marginEnd="10dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="52dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

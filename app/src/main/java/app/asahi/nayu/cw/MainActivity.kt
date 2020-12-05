@@ -27,5 +27,17 @@ class MainActivity : AppCompatActivity() {
             count+= 10
             textView.text=count.toString()
         }
+
+        button3.setOnClickListener {
+            count--
+            textView.text=count.toString()
+        }
+
+        button4.setOnClickListener {
+            count-=10
+            textView.text=count.toString()
+        }
+
+
     }
 }
